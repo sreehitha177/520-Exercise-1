@@ -1,0 +1,59 @@
+Problem 1:
+Task ID: 549
+Description: Write a python function to find the sum of fifth power of first n odd natural numbers.
+Function: odd_Num_Sum
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 2:
+Task ID: 136
+Description: Write a function to calculate electricity bill.
+Function: cal_electbill
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 3:
+Task ID: 56
+Description: Write a python function to check if a given number is one less than twice its reverse.
+Function: check
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 4:
+Task ID: 810
+Description: Write a function to iterate over elements repeating each as many times as its count.
+Function: count_variable
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 5:
+Task ID: 75
+Description: Write a function to find tuples which have all elements divisible by k from the given list of tuples.
+Function: find_tuples
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 6:
+Task ID: 335
+Description: Write a function to find the sum of arithmetic progression.
+Function: ap_sum
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 7:
+Task ID: 898
+Description: Write a function to extract specified number of elements from a given list, which follow each other continuously.
+Function: extract_elements
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 8:
+Task ID: 847
+Description: Write a python function to copy a list from a singleton tuple.
+Function: lcopy
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 9:
+Task ID: 517
+Description: Write a python function to find the largest postive number from the given list.
+Function: largest_pos
+Number of tests: 102
+--------------------------------------------------------------------------------
+Problem 10:
+Task ID: 974
+Description: Write a function to find the minimum total path sum in the given triangle.
+Function: min_sum_path
+Number of tests: 102

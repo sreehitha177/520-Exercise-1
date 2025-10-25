@@ -1,0 +1,29 @@
+For cal_electbill
+
+Your previous solution isn't working. Its failing all test cases let me give you few test cases so that it will help you debug:
+✗ Test 1 ERROR: assert cal_electbill(75)==246.25
+✗ Test 2 ERROR: assert cal_electbill(265)==1442.75  
+✗ Test 3 ERROR: assert cal_electbill(100)==327.5
+✗ Test 4 ERROR: assert cal_electbill(73) == 239.75
+✗ Test 5 ERROR: assert cal_electbill(73) == 239.75
+
+Problem: Write a function to calculate electricity bill.
+Let's debug this step by step:
+1. First, analyze what specific billing structure might be expected
+2. Consider common electricity billing patterns (tiered rates, fixed charges)
+3. Look at the test cases to infer the expected behavior
+
+
+
+
+
+For count_variable problem 
+
+For the count variable function all the test cases failed. Below are the test cases rewrite the code again:
+Task ID: 810, Function Name: count_variable
+Test Cases:
+assert count_variable(4,2,0,-2)==['p', 'p', 'p', 'p', 'q', 'q']
+assert count_variable(0,1,2,3)==['q', 'r', 'r', 's', 's', 's'] 
+assert count_variable(11,15,12,23)==['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']
+assert count_variable(2, 3, 4, -4) == ['p', 'p', 'q', 'q', 'q', 'r', 'r', 'r', 'r']
+

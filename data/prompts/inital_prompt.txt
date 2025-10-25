@@ -1,0 +1,30 @@
+Strategy 1: Chain-of-Thought (CoT)
+
+{problem statement}
+
+Please solve this step by step: 
+1. First, try to understand what the problem is asking for 
+2. Next, think about appropriate approach or algorithm to proceed with 
+3. Keep edge cases in mind to handle
+4. Write the Python function with structured logic
+
+
+
+
+Strategy 2: Self-Planning
+
+{problem statement}
+
+Before writing code, let's create a detailed plan in two phases:  
+1. PLANNING PHASE:    
+   - Analyze the problem requirements   
+   - Identify input/output specs   
+   - List all constraints and edge cases   
+   - Choose the most appropriate approach or algorithm   
+
+2. IMPLEMENTATION PHASE:    
+   - Write the function based on your plan   
+   - Include error handling and edge cases
+   - stick to your planning phase 
+
+Please start with your planning phase:
