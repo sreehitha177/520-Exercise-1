@@ -24,7 +24,7 @@ Problem,Function,Model,Strategy,pass@1,pass@3,pass@5
 6,ap_sum,Gemini-2.5,CoT,1.00,1.00,1.00
 6,ap_sum,Gemini-2.5,Self-Planning,1.00,1.00,1.00
 7,extract_elements,ChatGPT-4,CoT,0.00,0.00,0.00
-7,extract_elements,ChatGPT-4,Self-Planning,0.00,0.00,0.00,
+7,extract_elements,ChatGPT-4,Self-Planning,0.00,0.00,0.00
 7,extract_elements,Gemini-2.5,CoT,0.00,0.00,0.00
 7,extract_elements,Gemini-2.5,Self-Planning,0.00,0.00,0.00
 8,lcopy,ChatGPT-4,CoT,0.00,0.00,0.00
