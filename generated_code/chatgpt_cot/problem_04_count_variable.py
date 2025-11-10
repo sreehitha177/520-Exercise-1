@@ -13,10 +13,6 @@ def count_variable(lst):
 
 # Solution 2
 def count_variable(lst):
-    return [x for x in lst for _ in range(lst.count(x))]
-
-# Solution 3
-def count_variable(lst):
     d = {}
     for item in lst:
         d[item] = d.get(item, 0) + 1
@@ -24,6 +20,11 @@ def count_variable(lst):
     for k, v in d.items():
         out += [k] * v
     return out
+
+# Solution 3
+def count_variable(lst):
+    return [x for x in lst for _ in range(lst.count(x))]
+
 
 # Solution 4
 def count_variable(lst):

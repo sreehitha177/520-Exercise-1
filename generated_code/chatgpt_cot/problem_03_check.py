@@ -9,7 +9,10 @@ def check(num):
 
 # Solution 2
 def check(num):
-    return num + 1 == 2 * int(str(num)[::-1])
+    s = str(num)
+    r = int(s[::-1])
+    return (num - (2 * r - 1)) == 0
+
 
 # Solution 3
 def check(num):
@@ -18,9 +21,7 @@ def check(num):
 
 # Solution 4
 def check(num):
-    s = str(num)
-    r = int(s[::-1])
-    return (num - (2 * r - 1)) == 0
+    return num + 1 == 2 * int(str(num)[::-1])
 
 # Solution 5
 def check(num):

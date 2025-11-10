@@ -417,6 +417,17 @@ assert count_variable(7, 16, 7, 19) == ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 
 assert count_variable(13, 16, 11, 19) == ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']
 assert count_variable(8, 12, 10, 21) == ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']
 assert count_variable(9, 14, 17, 23) == ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'q', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']
+assert count_variable([]) == []
+assert count_variable([5]) == [5]
+assert sorted(count_variable([1, 2, 3])) == [1, 2, 3]
+assert count_variable([7, 16, 7, 19]) == [7, 7, 16, 19]
+assert count_variable(['p', 'q', 'p']) == ['p', 'p', 'q']
+assert count_variable(['p', 1, 'p', 1]) == ['p', 'p', 1, 1]
+assert count_variable(['r', 'r', 'r', 's', 's']) == ['r', 'r', 'r', 's', 's']
+assert count_variable(['a', 'b', 'a', 'c', 'b', 'b']) == ['a', 'a', 'b', 'b', 'b', 'c']
+assert sorted(count_variable(['x', 'y', 'x', 'y', 'y'])) == sorted(['x', 'x', 'y', 'y', 'y'])
+assert count_variable([1, 1, 2, 3, 3, 3]) == [1, 1, 2, 3, 3, 3]
+
 
 Task ID: 75, Function Name: find_tuples
 Test Cases:
