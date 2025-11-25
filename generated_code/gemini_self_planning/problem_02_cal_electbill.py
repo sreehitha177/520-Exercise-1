@@ -2,8 +2,6 @@
 # Task ID: 136
 # Description: Write a function to calculate electricity bill.
 
-# Note: Solutions extracted from original generated codes file
-# See generated_code/original_generated_codes.txt for full Gemini solutions
 
 # Solution 1
 def cal_electbill(units):

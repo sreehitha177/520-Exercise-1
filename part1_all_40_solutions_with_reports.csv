@@ -1,0 +1,41 @@
+Problem,Function,Source,Solution#,Tests Passed,Tests Total,Pass Rate %,Line Coverage %,Branch Coverage %,Lines Covered,Lines Total,Branches Covered,Branches Total,HTML Report,XML Report,Notes
+1,odd_Num_Sum,ChatGPT CoT,2,102,102,100.0,100%,100%,5,5,2,2,coverage_reports/p01_odd_Num_Sum_chatgpt_cot/htmlcov,coverage_reports/p01_odd_Num_Sum_chatgpt_cot/coverage.xml,All tests pass
+1,odd_Num_Sum,ChatGPT Self-Planning,2,102,102,100.0,100%,100%,5,5,2,2,coverage_reports/p01_odd_Num_Sum_chatgpt_self_planning/htmlcov,coverage_reports/p01_odd_Num_Sum_chatgpt_self_planning/coverage.xml,All tests pass
+1,odd_Num_Sum,Gemini CoT,2,102,102,100.0,87%,75%,10,11,3,4,coverage_reports/p01_odd_Num_Sum_gemini_cot/htmlcov,coverage_reports/p01_odd_Num_Sum_gemini_cot/coverage.xml,All tests pass
+1,odd_Num_Sum,Gemini Self-Planning,2,102,102,100.0,71%,50%,4,5,1,2,coverage_reports/p01_odd_Num_Sum_gemini_self_planning/htmlcov,coverage_reports/p01_odd_Num_Sum_gemini_self_planning/coverage.xml,All tests pass
+2,cal_electbill,ChatGPT CoT,2,0,102,0.0,93%,75%,10,10,3,4,coverage_reports/p02_cal_electbill_chatgpt_cot/htmlcov,coverage_reports/p02_cal_electbill_chatgpt_cot/coverage.xml,All tests fail
+2,cal_electbill,ChatGPT Self-Planning,2,0,102,0.0,93%,75%,10,10,3,4,coverage_reports/p02_cal_electbill_chatgpt_self_planning/htmlcov,coverage_reports/p02_cal_electbill_chatgpt_self_planning/coverage.xml,All tests fail
+2,cal_electbill,Gemini CoT,2,0,102,0.0,70%,67%,10,14,4,6,coverage_reports/p02_cal_electbill_gemini_cot/htmlcov,coverage_reports/p02_cal_electbill_gemini_cot/coverage.xml,All tests fail
+2,cal_electbill,Gemini Self-Planning,2,0,102,0.0,81%,67%,13,15,4,6,coverage_reports/p02_cal_electbill_gemini_self_planning/htmlcov,coverage_reports/p02_cal_electbill_gemini_self_planning/coverage.xml,All tests fail
+3,check,ChatGPT CoT,2,102,102,100.0,100%,No branches,4,4,0,0,coverage_reports/p03_check_chatgpt_cot/htmlcov,coverage_reports/p03_check_chatgpt_cot/coverage.xml,All tests pass
+3,check,ChatGPT Self-Planning,2,102,102,100.0,100%,No branches,2,2,0,0,coverage_reports/p03_check_chatgpt_self_planning/htmlcov,coverage_reports/p03_check_chatgpt_self_planning/coverage.xml,All tests pass
+3,check,Gemini CoT,2,102,102,100.0,67%,50%,7,10,1,2,coverage_reports/p03_check_gemini_cot/htmlcov,coverage_reports/p03_check_gemini_cot/coverage.xml,All tests pass
+3,check,Gemini Self-Planning,2,102,102,100.0,87%,75%,10,11,3,4,coverage_reports/p03_check_gemini_self_planning/htmlcov,coverage_reports/p03_check_gemini_self_planning/coverage.xml,All tests pass
+4,count_variable,ChatGPT CoT,2,10,112,8.9,100%,100%,8,8,4,4,coverage_reports/p04_count_variable_chatgpt_cot/htmlcov,coverage_reports/p04_count_variable_chatgpt_cot/coverage.xml,102 tests fail
+4,count_variable,ChatGPT Self-Planning,2,3,112,2.7,100%,No branches,2,2,0,0,coverage_reports/p04_count_variable_chatgpt_self_planning/htmlcov,coverage_reports/p04_count_variable_chatgpt_self_planning/coverage.xml,109 tests fail
+4,count_variable,Gemini CoT,2,0,112,0.0,25%,100%,2,6,2,2,coverage_reports/p04_count_variable_gemini_cot/htmlcov,coverage_reports/p04_count_variable_gemini_cot/coverage.xml,All tests fail
+4,count_variable,Gemini Self-Planning,2,10,112,8.9,100%,100%,13,13,6,6,coverage_reports/p04_count_variable_gemini_self_planning/htmlcov,coverage_reports/p04_count_variable_gemini_self_planning/coverage.xml,102 tests fail
+5,find_tuples,ChatGPT CoT,2,99,102,97.1,100%,100%,6,6,4,4,coverage_reports/p05_find_tuples_chatgpt_cot/htmlcov,coverage_reports/p05_find_tuples_chatgpt_cot/coverage.xml,3 tests fail
+5,find_tuples,ChatGPT Self-Planning,2,99,102,97.1,100%,100%,5,5,2,2,coverage_reports/p05_find_tuples_chatgpt_self_planning/htmlcov,coverage_reports/p05_find_tuples_chatgpt_self_planning/coverage.xml,3 tests fail
+5,find_tuples,Gemini CoT,2,99,102,97.1,67%,50%,3,4,1,2,coverage_reports/p05_find_tuples_gemini_cot/htmlcov,coverage_reports/p05_find_tuples_gemini_cot/coverage.xml,3 tests fail
+5,find_tuples,Gemini Self-Planning,2,99,102,97.1,67%,50%,3,4,1,2,coverage_reports/p05_find_tuples_gemini_self_planning/htmlcov,coverage_reports/p05_find_tuples_gemini_self_planning/coverage.xml,3 tests fail
+6,ap_sum,ChatGPT CoT,2,9,102,8.8,100%,100%,5,5,2,2,coverage_reports/p06_ap_sum_chatgpt_cot/htmlcov,coverage_reports/p06_ap_sum_chatgpt_cot/coverage.xml,93 tests fail
+6,ap_sum,ChatGPT Self-Planning,2,9,102,8.8,100%,No branches,4,4,0,0,coverage_reports/p06_ap_sum_chatgpt_self_planning/htmlcov,coverage_reports/p06_ap_sum_chatgpt_self_planning/coverage.xml,93 tests fail
+6,ap_sum,Gemini CoT,2,102,102,100.0,75%,50%,5,6,1,2,coverage_reports/p06_ap_sum_gemini_cot/htmlcov,coverage_reports/p06_ap_sum_gemini_cot/coverage.xml,All tests pass
+6,ap_sum,Gemini Self-Planning,2,102,102,100.0,75%,50%,5,6,1,2,coverage_reports/p06_ap_sum_gemini_self_planning/htmlcov,coverage_reports/p06_ap_sum_gemini_self_planning/coverage.xml,All tests pass
+7,extract_elements,ChatGPT CoT,2,22,102,21.6,100%,100%,5,5,2,2,coverage_reports/p07_extract_elements_chatgpt_cot/htmlcov,coverage_reports/p07_extract_elements_chatgpt_cot/coverage.xml,80 tests fail
+7,extract_elements,ChatGPT Self-Planning,2,22,102,21.6,100%,No branches,4,4,0,0,coverage_reports/p07_extract_elements_chatgpt_self_planning/htmlcov,coverage_reports/p07_extract_elements_chatgpt_self_planning/coverage.xml,80 tests fail
+7,extract_elements,Gemini CoT,2,22,102,21.6,100%,100%,4,4,2,2,coverage_reports/p07_extract_elements_gemini_cot/htmlcov,coverage_reports/p07_extract_elements_gemini_cot/coverage.xml,80 tests fail
+7,extract_elements,Gemini Self-Planning,2,22,102,21.6,100%,100%,9,9,4,4,coverage_reports/p07_extract_elements_gemini_self_planning/htmlcov,coverage_reports/p07_extract_elements_gemini_self_planning/coverage.xml,80 tests fail
+8,lcopy,ChatGPT CoT,2,0,102,0.0,67%,No branches,2,3,0,0,coverage_reports/p08_lcopy_chatgpt_cot/htmlcov,coverage_reports/p08_lcopy_chatgpt_cot/coverage.xml,All tests fail
+8,lcopy,ChatGPT Self-Planning,2,0,102,0.0,67%,No branches,2,3,0,0,coverage_reports/p08_lcopy_chatgpt_self_planning/htmlcov,coverage_reports/p08_lcopy_chatgpt_self_planning/coverage.xml,All tests fail
+8,lcopy,Gemini CoT,2,0,102,0.0,33%,75%,3,8,3,4,coverage_reports/p08_lcopy_gemini_cot/htmlcov,coverage_reports/p08_lcopy_gemini_cot/coverage.xml,All tests fail
+8,lcopy,Gemini Self-Planning,2,0,102,0.0,33%,75%,3,8,3,4,coverage_reports/p08_lcopy_gemini_self_planning/htmlcov,coverage_reports/p08_lcopy_gemini_self_planning/coverage.xml,All tests fail
+9,largest_pos,ChatGPT CoT,2,102,102,100.0,100%,100%,6,6,4,4,coverage_reports/p09_largest_pos_chatgpt_cot/htmlcov,coverage_reports/p09_largest_pos_chatgpt_cot/coverage.xml,All tests pass
+9,largest_pos,ChatGPT Self-Planning,2,102,102,100.0,100%,100%,5,5,2,2,coverage_reports/p09_largest_pos_chatgpt_self_planning/htmlcov,coverage_reports/p09_largest_pos_chatgpt_self_planning/coverage.xml,All tests pass
+9,largest_pos,Gemini CoT,2,102,102,100.0,100%,100%,9,9,6,6,coverage_reports/p09_largest_pos_gemini_cot/htmlcov,coverage_reports/p09_largest_pos_gemini_cot/coverage.xml,All tests pass
+9,largest_pos,Gemini Self-Planning,2,102,102,100.0,100%,No branches,3,3,0,0,coverage_reports/p09_largest_pos_gemini_self_planning/htmlcov,coverage_reports/p09_largest_pos_gemini_self_planning/coverage.xml,All tests pass
+10,min_sum_path,ChatGPT CoT,2,102,102,100.0,100%,100%,5,5,4,4,coverage_reports/p10_min_sum_path_chatgpt_cot/htmlcov,coverage_reports/p10_min_sum_path_chatgpt_cot/coverage.xml,All tests pass
+10,min_sum_path,ChatGPT Self-Planning,2,102,102,100.0,100%,100%,5,5,4,4,coverage_reports/p10_min_sum_path_chatgpt_self_planning/htmlcov,coverage_reports/p10_min_sum_path_chatgpt_self_planning/coverage.xml,All tests pass
+10,min_sum_path,Gemini CoT,2,102,102,100.0,89%,83%,11,12,5,6,coverage_reports/p10_min_sum_path_gemini_cot/htmlcov,coverage_reports/p10_min_sum_path_gemini_cot/coverage.xml,All tests pass
+10,min_sum_path,Gemini Self-Planning,2,102,102,100.0,87%,83%,8,9,5,6,coverage_reports/p10_min_sum_path_gemini_self_planning/htmlcov,coverage_reports/p10_min_sum_path_gemini_self_planning/coverage.xml,All tests pass
