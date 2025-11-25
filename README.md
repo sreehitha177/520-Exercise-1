@@ -17,3 +17,9 @@ Follow the steps below to generate HTML coverage reports for all 40 code snippet
 This will automatically generate **HTML files** for all 40 code snippets, each containing detailed **line** and **branch coverage** information.
 
 The generated HTML files will be saved in the output directory `/Users/sreehithanarayana/Desktop/520-Exercise-1/coverage_reports`
+
+
+3. **To generate HTML reports for exercise 3**
+   ```bash
+   python3 exercise3_coverage_analyzer.py
+   ```
