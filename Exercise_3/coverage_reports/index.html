@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 3 - Coverage Reports</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        h1 { color: #333; text-align: center; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        table { border-collapse: collapse; width: 100%; background: white; margin: 20px 0; }
+        th, td { padding: 12px; text-align: left; border: 1px solid #ddd; }
+        th { background-color: #4CAF50; color: white; position: sticky; top: 0; }
+        tr:hover { background-color: #f5f5f5; }
+        .problem-header { background-color: #e8f5e9; font-weight: bold; font-size: 1.1em; }
+        .improvement { color: green; font-weight: bold; }
+        a { color: #1976D2; text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .coverage-high { background-color: #c8e6c9; }
+        .coverage-medium { background-color: #fff9c4; }
+        .coverage-low { background-color: #ffcdd2; }
+        .summary { background: #e3f2fd; padding: 15px; margin: 20px 0; border-left: 4px solid #2196F3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercise 3 - Coverage Comparison Report</h1>
+        <p style="text-align: center; color: #666;">
+            Baseline vs. Specification-Guided Test Coverage
+        </p>
+        
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Problem</th>
+                    <th>Test Suite</th>
+                    <th>Tests Passed</th>
+                    <th>Line Coverage</th>
+                    <th>Branch Coverage</th>
+                    <th>Lines</th>
+                    <th>Branches</th>
+                    <th>Reports</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr class="problem-header"><td colspan="8">max_difference</td></tr>
+            <tr class="coverage-medium">
+                <td></td>
+                <td><strong>Baseline</strong></td>
+                <td>102/102</td>
+                <td>75%</td>
+                <td>62%</td>
+                <td>9/12</td>
+                <td>5/8</td>
+                <td><a href="max_difference_baseline/htmlcov/index.html">HTML</a> | <a href="max_difference_baseline/coverage.xml">XML</a></td>
+            </tr>
+            <tr class="coverage-high">
+                <td></td>
+                <td><strong>Improved</strong></td>
+                <td>112/112</td>
+                <td>92%</td>
+                <td>88%</td>
+                <td>11/12</td>
+                <td>7/8</td>
+                <td><a href="max_difference_improved/htmlcov/index.html">HTML</a> | <a href="max_difference_improved/coverage.xml">XML</a></td>
+            </tr>
+            <tr style="background: #f0f0f0;">
+                <td></td>
+                <td><em>Improvement</em></td>
+                <td>+10 tests</td>
+                <td class="improvement">+17%</td>
+                <td class="improvement">+26%</td>
+                <td class="improvement">+2</td>
+                <td class="improvement">+2</td>
+                <td></td>
+            </tr>
+            <tr class="problem-header"><td colspan="8">large_product</td></tr>
+            <tr class="coverage-medium">
+                <td></td>
+                <td><strong>Baseline</strong></td>
+                <td>102/102</td>
+                <td>82%</td>
+                <td>75%</td>
+                <td>14/17</td>
+                <td>9/12</td>
+                <td><a href="large_product_baseline/htmlcov/index.html">HTML</a> | <a href="large_product_baseline/coverage.xml">XML</a></td>
+            </tr>
+            <tr class="coverage-high">
+                <td></td>
+                <td><strong>Improved</strong></td>
+                <td>114/120</td>
+                <td>100%</td>
+                <td>100%</td>
+                <td>17/17</td>
+                <td>12/12</td>
+                <td><a href="large_product_improved/htmlcov/index.html">HTML</a> | <a href="large_product_improved/coverage.xml">XML</a></td>
+            </tr>
+            <tr style="background: #f0f0f0;">
+                <td></td>
+                <td><em>Improvement</em></td>
+                <td>+18 tests</td>
+                <td class="improvement">+18%</td>
+                <td class="improvement">+25%</td>
+                <td class="improvement">+3</td>
+                <td class="improvement">+3</td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
